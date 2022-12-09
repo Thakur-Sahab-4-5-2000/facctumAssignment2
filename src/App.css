@@ -1,0 +1,11 @@
+.App {
+  margin-left: 5rem;
+}
+
+.App h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: rgb(0, 208, 255);
+  margin-left: 25rem;
+}

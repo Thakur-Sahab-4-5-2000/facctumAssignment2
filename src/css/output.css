@@ -1,0 +1,48 @@
+.output {
+  margin-bottom: 5rem;
+}
+
+.output h3 {
+  color: rgb(0, 208, 255);
+}
+
+.output ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.output ul li {
+  width: 20%;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid rgb(0, 208, 255);
+  border-radius: 0.5rem;
+  color: rgb(0, 208, 255);
+  text-align: center;
+}
+
+.output .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -50px;
+}
+
+.output button {
+  margin-top: 2rem;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 900;
+  border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: rgb(0, 208, 255);
+  border: 1px solid rgb(0, 208, 255);
+  margin-left: 20rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: -3px;
+}

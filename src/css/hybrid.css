@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+.hybird {
+  width: 30vh;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-field {
+  flex: 2;
+}
+.output {
+  margin-left: 3rem;
+  flex: 1;
+}
+.form-field label,
+h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(84, 84, 84);
+}
+
+.form-field label {
+  margin-bottom: 1rem;
+}
+
+input {
+  height: 35px;
+  width: 100%;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+input:focus {
+  border: 1px solid rgb(0, 208, 255);
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+}
+.first-division {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px 0.5rem 0;
+  width: 100%;
+}
+.first-division button {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  color: rgb(0, 208, 255);
+  border: 1px solid rgb(0, 208, 255);
+}
+
+.second-division button {
+  color: red;
+  border: 1px solid red;
+}
+
+.add-btn {
+  position: absolute;
+  margin-left: 50rem;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 5px 10px;
+  color: rgb(0, 208, 255);
+  border: 1px solid rgb(0, 208, 255);
+}
+
+.title {
+  color: rgb(0, 208, 255);
+}
+
+.remove-btn {
+  margin-right: -10rem;
+  margin-top: 10px;
+}
+
+.add-btn-submitted {
+  position: absolute;
+  margin-left: 50rem;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 5px 10px;
+  color: black;
+  border: 1px solid black;
+}
+
+.submit {
+  margin-top: 2rem;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 5px 10px;
+  color: rgb(0, 208, 255);
+  border: 1px solid rgb(0, 208, 255);
+}
+
+.submitted {
+  margin-top: 2rem;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 5px 10px;
+  color: black;
+  border: 1px solid black;
+}
