@@ -67,7 +67,8 @@ input:focus {
 
 .add-btn {
   position: absolute;
-  margin-left: 50rem;
+  margin-left: 20rem;
+  margin-top: 10rem;
   background: none;
   outline: none;
   cursor: pointer;
@@ -83,13 +84,13 @@ input:focus {
 }
 
 .remove-btn {
-  margin-right: -10rem;
-  margin-top: 10px;
+  margin-right: -10rem !important;
+  margin-top: -1px !important;
 }
 
 .add-btn-submitted {
   position: absolute;
-  margin-left: 50rem;
+  margin-left: 20rem;
   background: none;
   outline: none;
   cursor: pointer;
@@ -112,14 +113,41 @@ input:focus {
   border: 1px solid rgb(0, 208, 255);
 }
 
-.submitted {
-  margin-top: 2rem;
-  background: none;
-  outline: none;
-  cursor: pointer;
-  font-weight: 500;
-  border-radius: 2px;
-  padding: 5px 10px;
-  color: black;
-  border: 1px solid black;
+.title {
+  font-size: 18px;
+}
+
+pre {
+  color: red;
+}
+
+@media (max-width: 916px) {
+  .add-btn {
+    position: relative;
+    margin-left: -15px !important;
+    margin-top: 5px !important;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 10px;
+    height: 30px;
+    border-radius: 2px;
+    color: rgb(0, 208, 255);
+    border: 1px solid rgb(0, 208, 255);
+  }
+  .add-btn-submitted {
+    position: relative;
+    margin-left: -15px !important;
+    margin-top: 5px !important;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 10px;
+    height: 30px;
+    border-radius: 2px;
+    color: black;
+    border: 1px solid black;
+  }
 }

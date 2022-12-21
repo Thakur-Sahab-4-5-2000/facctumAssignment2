@@ -1,9 +1,32 @@
 .output {
   margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .output h3 {
   color: rgb(0, 208, 255);
+  margin-bottom: 1rem;
+}
+.output .head1 h1 {
+  color: rgb(0, 208, 255);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.output .tryAgain {
+  text-align: center !important;
+}
+
+.output2 .head h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: rgb(0, 208, 255);
+  text-align: center !important;
+  width: 100%;
 }
 
 .output ul {
@@ -21,6 +44,7 @@
   border-radius: 0.5rem;
   color: rgb(0, 208, 255);
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .output .head {
@@ -37,12 +61,10 @@
   cursor: pointer;
   font-weight: 900;
   border-radius: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
   color: rgb(0, 208, 255);
   border: 1px solid rgb(0, 208, 255);
-  margin-left: 20rem;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: -3px;
+  margin: auto;
 }
