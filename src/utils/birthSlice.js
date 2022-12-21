@@ -1,15 +1,21 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = [];
+const initialState = {
+  birth: [],
+  institue: [],
+  keyword: [],
+  mentor: [],
+  skills: [],
+  capitals: [],
+};
 
 export const birthSlice = createSlice({
   name: "birth",
   initialState,
   reducers: {
-    addBirth: (state, action, index) => {
-      console.log(index);
+    addBirth: (state, action) => {
       console.log(action);
-      state.push(...action.payload);
+      state[action.payload.key].push(...action.payload.data);
     },
   },
 });

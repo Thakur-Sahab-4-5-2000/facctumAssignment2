@@ -1,11 +1,72 @@
+@import "rsuite/dist/rsuite.css";
+
 .App {
   margin-left: 5rem;
 }
 
-.App h1 {
+.App .assg {
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 1rem;
   color: rgb(0, 208, 255);
-  margin-left: 25rem;
+  text-align: center;
+}
+
+.App button {
+  margin-top: 2rem;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 5px 10px;
+  color: rgb(0, 208, 255);
+  border: 1px solid rgb(0, 208, 255);
+}
+
+.App .buttonSubmitted {
+  margin-top: 2rem;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 5px 10px;
+  color: black;
+  border: 1px solid black;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-top: 1rem;
+}
+
+.output {
+  margin-top: 5rem;
+}
+
+.App .submitDisable {
+  margin-top: 2rem;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 5px 10px;
+  color: black;
+  border: 1px solid black;
+}
+
+@media (max-width: 916px) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+  .App h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: rgb(0, 208, 255);
+  }
 }
